@@ -14,7 +14,7 @@ public class Calculator {
 }
 
 class Application {
-    public static void main(String[] agrgs) {
+    public static void main(String[] args) {
         Calculator calculation = new Calculator();
         System.out.println(calculation.addition(4, 6));
         System.out.println(calculation.subtraction(8, 4));
